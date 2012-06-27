@@ -1,0 +1,4 @@
+dependencies:
+http://pypi.python.org/pypi/pyserial
+http://code.google.com/p/tweepy/downloads/detail?name=tweepy-1.4-py2.6.egg
+http://mrtopf.de/blog/en/a-small-introduction-to-python-eggs/
