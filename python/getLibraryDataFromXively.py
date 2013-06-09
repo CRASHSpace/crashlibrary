@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+## crazy one liner to parse data into daily counts:
+## cat doorData.csv |perl -ane '($time)=/^(\d\d\d\d-\d\d-\d\d).*/; if (!($time eq $lasttime)) {print "$lasttime,$count\n";$count=0;$lasttime=$time;} else { $count++}' >doorDataByDay.csv
+
+
 import httplib
 import urllib
 
